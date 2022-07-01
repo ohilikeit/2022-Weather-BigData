@@ -1,6 +1,6 @@
 # AWS
 
-+ **(aws_a)** DB_AWS_CLOUD_DD 
++ **(aws_a)** 
   + DB_AWS_CLOUD_DD 
   + 시각(TMA), 지점번호(STN_ID), 평균전윤량(AVG_TCA)
 <br/>
@@ -44,3 +44,22 @@
   + DB_AWS_TA_DD		
   + 시각(TMA), 지점번호(STN_ID), 평균 기온(AVG_TA), 최고 기온(MAX_TA), 최저 기온(MIN_TA),아침 최저 기온(MIN_MRNG_TA),낮 최고 기온(MAX_DYTM_TA),밤 최저 기온(MIN_NGHT_TA )
 <br/>
+
++ **(AWS)**
+  +  방재기상관측(AWS)지점
+  + 시각(TMA), 지점번호(STN_ID), 평균 최저 초상온도(AVG_MIN_TG), 최저 초상온도(MIN_TG)
+<br/>
+
++ **(gisang_zizum)**
+  + DB_COMN_KMA_STN		
+  + 지점번호(STN_ID), 지점 한글 명(STN_KOR_NM)
+<br/>
+
+
+## Detail
++ **(aws_*_area_1)**
+	+ aws_* 와 gisang_zizum 을(를) 지점번호(STN_ID) 기준으로 병합한 데이터
+
++ **(aws_*_area_2)**
+	+ aws_* 와 AWS 를 지점번호(STN_ID) 기준으로 병합한 데이터
+	
