@@ -33,4 +33,4 @@
 
 ## Detail
 + **(sfc_*_area)**
-	+ aws_* 와 gisang_zizum 을(를) 지점번호(STN_ID) 기준으로 병합한 데이터
+	+ sfc_* 와 gisang_zizum 을(를) 지점번호(STN_ID) 기준으로 병합한 데이터
