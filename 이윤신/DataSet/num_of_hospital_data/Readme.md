@@ -39,7 +39,6 @@
        + hospits_bed	        :   일반병원 침상 수
        + affiliated_hospits_num:   부속병원 수
        + affiliated_hospits_bed:   부속병원 침상 수
-
 <br></br>
 + 2016.csv :
   + 2016 년 행정구역 별 병원 수 데이터
