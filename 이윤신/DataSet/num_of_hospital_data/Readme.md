@@ -1,7 +1,7 @@
-# 연별, 행정구역 별 병원 수 데이터
+# 연별, 행정구역 별 병원, 침상 수 데이터
 ( * 출처: https://kosis.kr/statHtml/statHtml.do?orgId=110&tblId=DT_11001N_2013_A042)
 + 2012.csv :
-    + 2012 년 행정구역 별 병원 수 
+    + 2012 년 행정구역 별 병원, 침상 수 
         + citys                 :   행정구역
         + general_hospits_num	:   종합병원 수
         + general_hospits_bed	:   종합병원 침상 수
@@ -11,7 +11,7 @@
         + affiliated_hospits_bed:   부속병원 침상 수
 <br></br>
 + 2013.csv :
-  + 2013 년 행정구역 별 병원 수 데이터
+  + 2013 년 행정구역 별 병원, 침상 수 데이터
        + citys                 :   행정구역
        + general_hospits_num	:   종합병원 수
        + general_hospits_bed	:   종합병원 침상 수
@@ -21,7 +21,7 @@
        + affiliated_hospits_bed:   부속병원 침상 수
 <br></br>
 + 2014.csv :
-  + 2014 년 행정구역 별 병원 수 데이터
+  + 2014 년 행정구역 별 병원, 침상 수 데이터
        + citys                 :   행정구역
        + general_hospits_num	:   종합병원 수
        + general_hospits_bed	:   종합병원 침상 수
@@ -31,7 +31,7 @@
        + affiliated_hospits_bed:   부속병원 침상 수
 <br></br>
 + 2015.csv :
-  + 2015 년 행정구역 별 병원 수 데이터
+  + 2015 년 행정구역 별 병원, 침상 수 데이터
        + citys                 :   행정구역
        + general_hospits_num	:   종합병원 수
        + general_hospits_bed	:   종합병원 침상 수
@@ -41,7 +41,7 @@
        + affiliated_hospits_bed:   부속병원 침상 수
 <br></br>
 + 2016.csv :
-  + 2016 년 행정구역 별 병원 수 데이터
+  + 2016 년 행정구역 별 병원, 침상 수 데이터
        + citys                 :   행정구역
        + general_hospits_num	:   종합병원 수
        + general_hospits_bed	:   종합병원 침상 수
