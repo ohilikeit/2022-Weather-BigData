@@ -9,5 +9,10 @@
   + ( *파생: https://github.com/Weather-BigData/2022-Weather-BigData/tree/main/%EC%9D%B4%EC%9C%A4%EC%8B%A0/DataSet/new_papulation )
 <br></br>
 + back_merge_hospitalSu.csv :  
-  + back_hospital_new.csv 와  2012~2015 행정구역 별 병원, 병상 수 통계 데이터를 join 한 파일
+  + back_hospital_new.csv 와  2012~2015 지역별 병원, 병상 수 통계 데이터를 join 한 파일
   + ( *파생: https://github.com/Weather-BigData/2022-Weather-BigData/tree/main/%EC%9D%B4%EC%9C%A4%EC%8B%A0/DataSet/num_of_hospital_data )
+<br></br>
++ back_merge_riskAge.csv :  
+  + back_hospital_new.csv 와  2012~2015 지역별 심혈관질환 위험연령구간 인구수 데이터를 join 한 파일
+  + ( *파생:  https://github.com/Weather-BigData/2022-Weather-BigData/tree/main/%EC%9D%B4%EC%9C%A4%EC%8B%A0/DataSet/risk_age_data)
+  
