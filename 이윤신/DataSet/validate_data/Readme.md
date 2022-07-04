@@ -9,5 +9,5 @@
   + (*파생: https://github.com/Weather-BigData/2022-Weather-BigData/tree/main/%EC%9D%B4%EC%9C%A4%EC%8B%A0/DataSet/num_of_hospital_data)
 <br><br/>
 + risk_age_validation.csv :
-  + 2016년 심혈관질환 위험연령구간 인구수 데이터 
+  + 2016년 지역별 심혈관질환 위험연령구간 인구수 데이터 
   + ( *파생: https://github.com/Weather-BigData/2022-Weather-BigData/tree/main/%EC%9D%B4%EC%9C%A4%EC%8B%A0/DataSet/risk_age_data)
