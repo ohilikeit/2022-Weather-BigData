@@ -1,7 +1,7 @@
 # 심혈관질환 위험연령구간(남: 45세 이상, 여: 55세 이상) 인구수 데이터
 ( * 출처: https://jumin.mois.go.kr/ageStatMonth.do#none)
 <br></br>
-+ 지역별_병원수_merge.ipynb :
++ 위험나이대.ipynb :
   + 백병원 데이터랑 join한 코드
 -------------------------
 + OneBone.zip :
