@@ -129,10 +129,12 @@ yyyymmdd	area	sex	frequency	SO2_mean	CO_mean	O3_mean	NO2_mean	PM10_mean
 
 ### 3 models hyperparameter tuning
 Optuna의 TPESampler를 활용하여 세 모델(CatBoost, LGBM, XGB)의 하이퍼파라미터 튜닝을 진행하였다. 앙상블도 진행해봤으나 LGBM 단일 모델의 성능이 가장 좋았다. 
+
 <img src="https://user-images.githubusercontent.com/37128004/197779859-ddfb03a5-80a6-4253-b272-3281d9880568.jpeg" width="700" height="300"/>
 
 ### feature Importance
 기상 데이터를 이용하여 예측을 하는 것이 목적이었으나 feature importance 상으로는 지역, 인구 변수들이 모델학습의 대부분을 차지하였다. 
+
 <img src="https://user-images.githubusercontent.com/37128004/197780373-c8ad045d-2aa0-4c90-9fac-90d013b408bd.png" width="700" height="300"/>
 
 ### Inference time technique
