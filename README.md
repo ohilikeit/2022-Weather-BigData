@@ -127,7 +127,7 @@ yyyymmdd	area	sex	frequency	SO2_mean	CO_mean	O3_mean	NO2_mean	PM10_mean
 <img src="https://user-images.githubusercontent.com/37128004/197779082-527f29b1-8ac8-4d81-b83a-e146eaa2036d.jpeg" width="700" height="120"/>
 
 ### 3 models hyperparameter tuning
-Optuna의 TPESampler를 활용하여 하이퍼파라미터 튜닝을 진행하였다. 앙상블도 진행해봤으나 LGBM 단일 모델의 성능이 가장 좋았다. 
+Optuna의 TPESampler를 활용하여 세 모델(CatBoost, LGBM, XGB)의 하이퍼파라미터 튜닝을 진행하였다. 앙상블도 진행해봤으나 LGBM 단일 모델의 성능이 가장 좋았다. 
 <img src="https://user-images.githubusercontent.com/37128004/197779859-ddfb03a5-80a6-4253-b272-3281d9880568.jpeg" width="700" height="300"/>
 
 ### feature Importance
@@ -141,6 +141,8 @@ LGBM_pred = LGBM.predict(test)
 submit.frequency = LGBM_pred * 1.05
 ```
 
-
-
-
+## Conclusion
+- 결론적으로는, 심뇌혈관계 질환 발생건수와 기상과의 명확한 상관관계는 데이터상으론 찾지 못했다.
+- 모델 학습의 대부분이 지역, 인구와 같은 다른 변수에 의해 결정되었고, 큰 상관성을 보일 것으로 예상했던 기온, 적설량도 별 의미 없었다.
+- raw data를 입맛대로 가공하는 과정이 매우 어렵다는 점을 깨달았다.(전체 시간의 70% 이상을 투입했다.)
+- 세 모델의 앙상블 효과가 기대 이하인 것은 동일한 gradient boosting 기반의 알고리즘을 대상으로 했기 때문으로 예상한다.
